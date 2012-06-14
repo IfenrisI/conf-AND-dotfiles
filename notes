@@ -1,13 +1,17 @@
 #
-# notes
+# notes [for configuration]
 #
 
-# some notes for configuration
+# /etc/modprobe.d/blacklist.conf
+blacklist sp5100_tco
 
+# ~/.xinitrc
 exec dbus-launch --exit-with-session startxfce4
 
+# Speaker-Control
 amixer -q -c 1 set Master toggle / 5+ / 5-
 
+# RadioTray
 Kronehit	http://onair.krone.at/kronehit.mp3
 Energy		http://stream01.energy.at:8000/vie
 Superfly	http://89.207.144.68:8080/live.m3u
