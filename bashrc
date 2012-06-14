@@ -27,7 +27,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
-alias unilog='ssh a0808368@almighty.cs.univie.ac.at'
+alias unilog='ssh a<Matrikel-Nr>@almighty.cs.univie.ac.at'
 alias backup='rsync -a'
 alias reload='source ~/.bashrc'
 
