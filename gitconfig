@@ -1,0 +1,13 @@
+[user]
+	name = philippkoehn
+	email = philipp.k.koehn@gmail.com
+
+[github]
+	user = IfenrisI
+
+[color]
+	ui = auto
+	status = auto
+	branch =auto
+	diff = auto
+	interactive = auto
