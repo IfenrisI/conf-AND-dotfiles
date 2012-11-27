@@ -1,22 +1,23 @@
 [Configuration]
-BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+FontName=Source Code Pro Semi-Bold 11
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBordersDefault=TRUE
 MiscCursorBlinks=TRUE
 MiscCursorShape=TERMINAL_CURSOR_SHAPE_UNDERLINE
-MiscDefaultGeometry=80x24
+MiscDefaultGeometry=72x20
 MiscInheritGeometry=FALSE
-MiscMenubarDefault=TRUE
+MiscMenubarDefault=FALSE
 MiscMouseAutohide=FALSE
-MiscToolbarsDefault=FALSE
+MiscToolbarsDefault=TRUE
 MiscConfirmClose=TRUE
 MiscCycleTabs=TRUE
 MiscTabCloseButtons=TRUE
 MiscTabCloseMiddleClick=TRUE
 MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
-BackgroundDarkness=0,950000
-FontName=Monospace 10
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+BackgroundDarkness=0,850000
 ColorCursor=#ffffffffffff
+TabActivityColor=#ffffffffffff
 
