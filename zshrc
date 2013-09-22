@@ -2,14 +2,14 @@
 # ~/.zshrc
 #
 
-##options 
+### options ###
 setopt no_beep auto_cd rm_star_wait
 eval `dircolors`
 autoload –U compinit && colors
 compinit
 colors
 
-##aliases 
+## aliases ###
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -27,7 +27,7 @@ alias unilog='ssh a<Matrikel-Nr>@almighty.cs.univie.ac.at'
 alias backup='rsync -a'
 alias reload='source ~/.bashrc'
 
-##prompt
+## prompt ###
 local GIT=""
 local GIT_REPO_PATH=`git rev-parse --git-dir 2>/dev/null`
 if [[ $GIT_REPO_PATH != '' && $GIT_REPO_PATH != '~' && $GIT_REPO_PATH != "$HOME/.git" ]]; then
