@@ -42,7 +42,7 @@ if [[ $GIT_REPO_PATH != '' && $GIT_REPO_PATH != '~' && $GIT_REPO_PATH != "$HOME/
     local GIT='git:$GIT_BRANCH $GIT_DIRTY'
 fi
 #local SMILEY='%(?,%{$fg[green]%}:){$reset_color%},%{$fg[red]%}:({$reset_color%})'
-local ERROR_MESS='%(?..%{$fg[red]%}:({$reset_color%} $'\0 not found!')' 
+local ERROR_MESS='%(?..%{$fg[red]%}:({$reset_color%} !-1 not found!)' 
 
 PROMPT='%{$fg[yellow]%}╭%{$reset_color%}[%{$fg[green]%}%n%{$reset_color%}@%{$fg[cyan]%}%m%{$reset_color%}: %{$fg[magenta]%}%~%{$reset_color%}] (%{$fg[white]%}$GIT%{$reset_color%})
 %{$fg[yellow]%}╰➤%{$reset_color%}%  '
