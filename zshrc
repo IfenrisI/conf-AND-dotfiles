@@ -3,14 +3,17 @@
 #
 
 ### options ###
-setopt no_beep auto_cd rm_star_wait transient_rprompt
-eval `dircolors`
-autoload –U compinit && colors
-compinit
-colors
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
+
+setopt no_beep auto_cd rm_star_wait nomatch notify
+eval `dircolors`
+bindkey -e
+zstyle :compinstall filename '~/.zshrc'
+autoload –Uz compinit && colors
+compinit
+colors
 
 ## aliases ###
 alias ..='cd ..'
